@@ -1,0 +1,411 @@
+/* =================================
+  Base Element Styles
+==================================== */
+html{
+  font-family: 'Roboto', sans-serif;
+  background: #F2F4F4;
+}
+
+.name{
+  text-align: left;
+  font-weight: bold;
+}
+.name2{
+  text-align: left;
+  font-weight: bold;
+}
+
+.topnav-right{
+  text-align: right;
+  padding: 25px 40px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.intro {
+  margin: 125px 0px;
+  float:left;
+  font-size: 18px;
+  text-align: left;
+
+}
+
+.smile {
+
+  padding: 0px 0px 0px 100px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 30px;
+   float: left;
+}
+.port{
+  text-align: center;
+  padding-top:  25px;
+
+}
+.background{
+  background: white;
+}
+
+.flex-container div {
+  padding: 15px 50px;
+  margin: 30px;
+}
+.imgstyle{
+  float:left;
+}
+
+.market{
+  text-align: center;
+}
+.Search{
+  text-align: center;
+}
+
+.travel{
+  text-align: center;
+}
+
+.map{
+  text-align: center;
+}
+
+.photo {
+  text-align: center;
+}
+
+.calculator{
+  text-align: center;
+}
+
+.contact{
+
+  padding: 60em 0px;
+  padding-bottom: 10em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.info{
+  text-align: center;
+  font-size: 18px;
+}
+
+.chat{
+  font-weight: normal;
+}
+
+.phone{
+  font-weight: normal;
+}
+
+.email{
+  font-weight: normal;
+}
+.stuff{
+  font-weight: bold;
+}
+
+/*=======================================
+      media set up
+========================================= */
+@media screen and (min-width: 320px) {
+  .topnav-right{
+    display: flex;
+    flex-direction: column;
+  }
+  body{
+    width: 76%
+  }
+.intro{
+  margin: 0px -5em 0px 1em;
+  text-align: center;
+}
+  .name{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 35px;
+  }
+.name2 {
+float: left;
+text-align: center;
+padding: 0px 16px;
+}
+.top{
+  float: right;
+}
+.nav a{
+  overflow: hidden;
+  border: 5px solid white;
+  background-color: #fff;
+  margin-left: 50px;
+}
+.topnav-right{
+    text-align: center;
+    width: 80%;
+    margin: 2px;
+
+  }
+
+.smile  img{
+    width: 100%;
+    height: auto;
+    margin-left: -10px;
+    padding: -10px;
+
+  }
+  .background{
+    width: 260px;
+  }
+  .flex-container div {
+    padding: 30px 30px;
+    margin: 0px;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px 37px;
+
+  }
+  .port{
+    text-align: center;
+    padding-top: 25px;
+
+  }
+  .imgstyle img{
+    width: 255px;
+    margin-left: -20px;
+  }
+
+  .contact{
+    margin-left: 50px;
+  }
+  .info{
+    text-align: center;
+    font-size: 18px;
+    margin: 30px;
+  }
+
+  .chat{
+    font-weight: normal;
+  }
+
+  .phone{
+    font-weight: normal;
+  }
+
+  .email{
+    font-weight: normal;
+  }
+  .top{
+    display: inline;
+  }
+  .topnav-right2{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .name{
+    text-align: center;
+    font-weight: bold;
+    margin: 25px;
+  }
+  body{
+  width: 80%;
+}
+.nav a {
+    background-color: #F2F4F4;
+    border: none;
+    margin: 20px;
+
+ }
+.topnav-right{
+      display: inline-block;
+      float: right;
+  }
+  .smile img{
+    width: 300px;
+    float:none;
+    margin: 0px 0px 0px 22em;
+
+  }
+  .intro{
+    text-align: left;
+    margin: -10em 5px 5px;
+    font-size: 16px;
+
+  }
+
+  .background{
+    width: 700px;
+  }
+  .flex-container div {
+    padding: 25px 20px;
+    margin: 10px 0px 0px -20px;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px ;
+
+  }
+  .port{
+    text-align: center;
+    padding-top: 25px;
+
+  }
+  .imgstyle img {
+    /* width: 300px; */
+    margin-left:20px;
+    max-width: 100%;
+  height: auto;
+  }
+  .imgstyle{
+    margin: 10px 0px 0px -10px;
+  }
+  .topnav-right2 {
+    display: inline;
+    float: right;
+    width: 300px;
+  }
+
+  .contact{
+    padding:
+  }
+
+  .stuff{
+    display: none;
+  }
+.name2{
+    float: left;
+    margin: 0px;
+ }
+}
+@media screen and (min-width: 1024px){
+  .name{
+    text-align: left;
+    font-weight: bold;
+  }
+  .name2{
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .topnav-right{
+    text-align: right;
+    padding: 25px 40px;
+  }
+
+  .nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .intro {
+    margin:-20em 0px;
+    font-size: 18px;
+    text-align: left;
+
+  }
+
+  .smile {
+    float:none;
+    padding: 5em 25px;
+    margin: 0px 89em;
+  }
+.smile img{
+  width: 450px;
+}
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px 60px;
+     float: left;
+  }
+  .port{
+    text-align: center;
+    padding-top:  25px;
+
+  }
+  .background{
+  width: 100em;
+  }
+
+  .flex-container div {
+    padding: 15px 50px;
+    margin: 0px;
+  }
+  .imgstyle{
+    float:left;
+  }
+
+  .market{
+    text-align: center;
+  }
+  .Search{
+    text-align: center;
+  }
+
+  .travel{
+    text-align: center;
+  }
+
+  .map{
+    text-align: center;
+  }
+
+  .photo {
+    text-align: center;
+  }
+
+  .calculator{
+    text-align: center;
+  }
+
+  .contact{
+    float:none;
+    padding: 40em 0px;
+    padding-bottom: 10em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+
+  }
+
+  .info{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .chat{
+    font-weight: normal;
+  }
+
+  .phone{
+    font-weight: normal;
+  }
+
+  .email{
+    font-weight: normal;
+  }
+  .stuff{
+    font-weight: bold;
+  }
+
+}
