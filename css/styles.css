@@ -391,7 +391,10 @@ margin: 10px -5px 60px 22px;
   .calculator{
     text-align: center;
   }
+  .imgstyle .map{
+  margin: 10px -5px 60px 5px;
 
+  }
   .contact{
     margin: 0px 0px 0px 10em;
     padding: 2em 0px;
