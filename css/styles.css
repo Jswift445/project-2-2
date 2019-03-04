@@ -20,9 +20,11 @@ html{
     width: 76%
   }
   .name{
-    text-align: left;
+    text-align: center;
     font-weight: bold;
-    margin-left: 35px;
+    margin-left: 105px;
+    margin-top: 55px;
+
   }
   .name2{
     text-align: left;
@@ -31,7 +33,7 @@ html{
 
   .topnav-right{
     text-align: right;
-    padding: 25px 40px;
+    padding: 25px 65px;
   }
 
   .nav a{
@@ -52,7 +54,7 @@ html{
   .smile  img{
       width: 100%;
       height: auto;
-      margin-left: 30px;
+      margin-left: 55px;
       padding: -10px;
 
     }
@@ -61,7 +63,7 @@ html{
     display: flex;
     flex-flow: row wrap;
     padding: 0px 5px;
-    margin: 5px 10px 0px 15px;
+    margin: 5px 10px 0px 55px;
      /* float: left; */
     width: 80%;
   }
@@ -115,12 +117,13 @@ html{
 
   .contact{
 
-    padding: 2em 0px;
-    padding-bottom: 0em;
+    padding: 0em 0px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
+    margin-left: 120px;
+
 
   }
 
@@ -156,6 +159,7 @@ padding: 0px 16px;
 }
 .top{
   float: right;
+  margin-right: -55px;
 }
 .nav a{
   overflow: hidden;
@@ -177,7 +181,9 @@ padding: 0px 16px;
 
   }
 
-
+hr {
+  width: 130%;
+}
 
   .chat{
     font-weight: normal;
@@ -194,6 +200,7 @@ padding: 0px 16px;
     display: inline;
     text-decoration: none;
     color: #000;
+
   }
   .topnav-right2{
     display: none;
@@ -205,7 +212,8 @@ padding: 0px 16px;
   .name{
     text-align: center;
     font-weight: bold;
-    margin: 25px;
+    margin-left: 160px;
+    margin-top: 20px;
   }
 
 .nav a {
@@ -217,25 +225,26 @@ padding: 0px 16px;
 .topnav-right{
       display: inline-block;
       float: right;
+      margin: -10px -93px;
   }
   .smile img{
-    max-width: 60%;
-    margin: 0px 0px 0px 25em;
+    max-width: 52%;
+    margin: 25px 0px 0px 27em;
   }
   .intro{
     text-align: left;
-    margin: -10em 5px 5px;
-    font-size: 16px;
+    margin: -12.3em 5px 10px 25px;
+    font-size: 17px;
 
   }
 
   .background{
-    width: 120%;
+    width: 130%;
 
   }
   .flex-container div {
     padding: 25px 0px;
-    margin:10px 0px 5px -5px;
+    margin:10px 0px 5px 10px;
 
   }
   .flex-container {
@@ -243,6 +252,7 @@ padding: 0px 16px;
     flex-flow: row wrap;
     padding: 10px ;
     width: 125%;
+    margin: 0px 8px;
   }
   .port{
     text-align: center;
@@ -251,25 +261,46 @@ padding: 0px 16px;
   }
   .imgstyle img {
     width: 300px;
-    margin-left:2em;
+    margin-left:1.3em;
     /* max-width: 100%; */
   height: auto;
   }
-  .imgstyle{
-    margin: 50em ;
-  }
+ img{
+  margin: 0px 19px;
+}
 .imgstyle .map{
-margin: 10px -5px 60px 5px;
+margin: 10px -5px 60px 12px;
 
 }
 
+.imgstyle .travel{
+margin: 10px -5px 60px 25px;
+}
+
+.imgstyle .Search{
+margin: 10px -5px 60px 18px;
+}
+
+.imgstyle .calculator{
+margin: 10px -5px 60px 22px;
+}
   .topnav-right2 {
     display: inline;
-    float: right;
-    width: 300px;
+    text-align:  right;
+    margin: 0px 55%;
+  }
+  .contact{
+    padding: 0em 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 180px;
   }
 
-
+  hr {
+    width: 130%;
+  }
 
   .stuff{
     display: none;
@@ -283,6 +314,7 @@ margin: 10px -5px 60px 5px;
   .name{
     text-align: left;
     font-weight: bold;
+    margin: 20px 1em;
   }
   .name2{
     text-align: left;
@@ -291,7 +323,7 @@ margin: 10px -5px 60px 5px;
 
   .topnav-right{
     text-align: right;
-    margin: -69px -15em;
+    margin: -69px -14.6em;
 
   }
 
@@ -303,29 +335,25 @@ margin: 10px -5px 60px 5px;
   }
 
   .intro {
-    margin:-15em 0px;
-    font-size: 18px;
+    margin: -16em 2em;
+    font-size: 20px;
     text-align: left;
 
   }
 
-  /* .smile {
-    float:none;
-    padding: 5em 25px;
-    margin: 0px 0px 0px 20em;
-  } */
+
 .smile img{
-  width: 56%;
-  padding: 5em 25px;
-  margin: 0px 0px 0px 35em;
+  width: 45%;
+  padding-bottom: 80px;
+  margin: 2em 0px 0px 36em;
 }
   .flex-container {
     display: flex;
     flex-flow: row wrap;
     padding: 0px 5px;
-    margin: 5px 10px 0px 15px;
+    margin: 5px 10px 0px 19px;
      /* float: left; */
-    width: 127%;
+    width: 126%;
   }
   .port{
     text-align: center;
@@ -334,8 +362,8 @@ margin: 10px -5px 60px 5px;
   }
 
   .flex-container div {
-    padding: 15px 0px;
-    margin: -5px;
+    padding: 6px 5px;
+    margin: -12px;
   }
   .imgstyle{
     float:left;
@@ -365,7 +393,7 @@ margin: 10px -5px 60px 5px;
   }
 
   .contact{
-    float:none;
+    margin: 0px 0px 0px 10em;
     padding: 2em 0px;
     padding-bottom: 2em;
     text-align: center;
@@ -393,6 +421,11 @@ margin: 10px -5px 60px 5px;
   }
   .stuff{
     font-weight: bold;
+  }
+  .topnav-right2 {
+    display: inline;
+    text-align:  right;
+    margin: 0px 70%;
   }
 
 }
